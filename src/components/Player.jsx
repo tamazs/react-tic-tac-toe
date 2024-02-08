@@ -11,7 +11,7 @@ export default function Player({initialName, symbol}) {
 
     function handleChange(event) {
         // event is automatic for onChange with every keystroke
-        console.log(event);
+        //console.log(event);
         // target is the field itself, the input in this case
         setPlayerName(event.target.value)
     }
